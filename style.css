@@ -519,7 +519,7 @@ body{
 
 /* CSS for media query */
 
-@media only screen and (max-width: 500px) and (min-width: 300px){
+@media (width < 500px) and (width > 300px){
     *{
         position: relative;
     }
