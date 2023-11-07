@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My-Portfolio</title>
+</head>
+            <!-- https://preview.colorlib.com/#jackson -->
+<body>
+    <div class="row">
+        <div class="column1">
+            <button id="close-button" class="close-button" onclick="hideMenu()">&times;</button>
+            <section>
+                <img src="image.jpeg" alt="image">
+                <h1>PIYUSH KUMAR VERMA</h1>
+                <H4>WEB DEVELOPER / GRAPHIC DESIGNER</H4>
+                <nav class="nav-links">
+                    <ul>
+                        <li><a onclick="hideMenu()" href="#main">HOME</a></li>
+                        <li><a onclick="hideMenu()" href="#about">ABOUT</a></li>
+                        <li><a onclick="hideMenu()" href="#services">SERVICES</a></li>
+                        <li><a onclick="hideMenu()" href="#education">EDUCATION</a></li>
+                        <li><a onclick="hideMenu()" href="#skills">SKILLS</a></li>
+                        <li><a onclick="hideMenu()" href="#certificate">CERTIFICATIONS</a></li>
+                        <li><a onclick="hideMenu()" href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav><br>
+                <nav class="media-links">
+                    <ul>
+                        <li><a href="https://instagram.com/mindblogger786/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="https://github.com/mindblogger786/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/piyush-kumar-verma-048492284" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </nav>
+                <br>
+                <p style="text-align: center;">&#169; Copyright &#169; 2023 All rights reserved |
+                    <br>
+                    This tempelate was made by <b><u><i>@mindblogger786</i></u></b>.
+                </p>
+
+            </section>
+        </div>
+        <div class="column2">
+            <section>
+                <div id="main">
+                    <button id="open-button" class="open-button" onclick="showMenu()">&#9776;</button>
+                    <br>
+                    <h1 class="text">Hi! <br> I am a Web Designer</h1>
+                    <br>
+                    <button class="btn-1" type="submit" onclick="Contact()">Contact Me</button>
+                </div>
+                <div id="about">
+                    <h1><b>Who Am I?</b></h1>
+                    <h3>About Me</h3>
+                    <p>Hi! <b>I'm Piyush Kumar Verma</b>, <i>Front-End Web Developer.</i> I have a good knowledge in <i>HTML</i> & <i>CSS</i> and currently learning <i>Javascript</i> and <i>Graphic Designing</i>. I am an undergraduate student in Lucknow University, UP with BCA (Batchelor of Computer Applications) programme.
+                    <br><br>
+                    I belong to District Sultanpur, UP and living in District Lucknow, UP since 2003. I have completed my schooling from CBSE Board in 2022 with Science (PCM) Stream.</p>
+                </div>
+                <hr>
+                <div id="services">
+                    <h1><b>What I Do?</b></h1>
+                    <h3><b>Here are some of my Expertise</b></h3>
+                    <ul>
+                        <li class="one"><i id="one" class="fa-regular fa-lightbulb"></i><br><br>Graphic Design</li>
+                        <li class="two"><i id="two" class="fa-brands fa-html5"></i></i><br><br>Web Design</li>
+                        <li class="three"><i id="three" class="fa-solid fa-database"></i></i><br><br>Data Science</li>
+                        <li class="four"><i id="four" class="fa-solid fa-layer-group"></i></i><br><br>Software</li>
+                    </ul>
+                </div>
+                <hr>
+                <div id="education">
+                    <h1><b>Education</b></h1>
+                    <h3>My Educational Background</h3>
+                    <button type="button" class="collapsible">High School | Secondary Education (10)</button>
+                    <div class="content">
+                        <p>Passed in year 2019 from NIOS (National Institute of Open Schooling) with 61% 
+                            <br>
+                            <ul>
+                                <b style="font-size: 18px; margin-left: -20px;">Subjects -</b>
+                                <li>Hindi</li>
+                                <li>English</li>
+                                <li>Social Science</li>
+                                <li>Science</li>
+                                <li>Data Entry Operations</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <button type="button" class="collapsible">Intermediate | Senior Secondary Education (10+2)</button>
+                    <div class="content">
+                        <p>Passed in year 2022 from CBSE (Central Board of Secondary Education) with 70% 
+                            <br>
+                            <ul>
+                                <b style="font-size: 18px; margin-left: -20px;">Subjects -</b>
+                                <li>Hindi</li>
+                                <li>English</li>
+                                <li>Physics</li>
+                                <li>Chemistry</li>
+                                <li>Maths</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <button type="button" class="collapsible">Batchelor of Computer Applications (BCA)</button>
+                    <div class="content">
+                        <p>Pursuing currently in 2<sup>nd</sup> Year 3<sup>rd</sup> Semester
+                            <ul>
+                                <b style="font-size: 18px; margin-left: -20px;">1<sup>st</sup> Semester Subjects -</b>
+                                <li><b>Programming in C & Computer Fundamentals</b></li>
+                                <li>Essentials of Professional Communication</li>
+                                <li>Principles of Management</li>
+                                <li>Environmental Studies</li>
+                                <li>Mathematics - I</li>
+                            </ul>
+                            <ul>
+                                <b style="font-size: 18px; margin-left: -20px;">2<sup>nd</sup> Semester Subjects -</b>
+                                <li><b>Data Structures using C</b></li>
+                                <li>Digital Electronics</li>
+                                <li>Accounts & Financial Management</li>
+                                <li>Advanced Professional Communication</li>
+                                <li>Mathematics - II</li>
+                            </ul>
+                            <ul>
+                                <b style="font-size: 18px; margin-left: -20px;">3<sup>rd</sup> Semester Subjects -</b>
+                                <li>Computer Based Numericals & Statictical Techniques</li>
+                                <li><b>Object Oriented Programming using Java</b></li>
+                                <li><b>Operating System</b></li>
+                                <li>Computer Architecture</li>
+                                <li>Management Information System</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div id="skills">
+                    <h1><b>What skills do I have?</b></h1>
+                    <h3>My Specialities</h3>
+                    <div class="row-space">
+                        <div class="container">
+                            <h3>HTML</h3>
+                            <div class="bar">
+                                <div class="outer">
+                                        <div class="inner">
+                                            <div id="number1"></div>
+                                        </div>
+                                </div>
+                                <svg width="160px" height="160px">
+                                    <defs>
+                                        <linearGradient id="GradientColor">
+                                            <stop offset="0%" stop-color="#e91e63" />
+                                            <stop offset="100%" stop-color="#673ab7" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle1" cx="80" cy="80" r="70" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3>CSS</h3>
+                            <div class="bar">
+                                <div class="outer">
+                                        <div class="inner">
+                                            <div id="number2"></div>
+                                        </div>
+                                </div>
+                                <svg width="160px" height="160px">
+                                    <defs>
+                                        <linearGradient id="GradientColor">
+                                            <stop offset="0%" stop-color="#e91e63" />
+                                            <stop offset="100%" stop-color="#673ab7" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3>JAVASCRIPT</h3>
+                            <div class="bar">
+                                <div class="outer">
+                                        <div class="inner">
+                                            <div id="number3"></div>
+                                        </div>
+                                </div>
+                                <svg width="160px" height="160px">
+                                    <defs>
+                                        <linearGradient id="GradientColor">
+                                            <stop offset="0%" stop-color="#e91e63" />
+                                            <stop offset="100%" stop-color="#673ab7" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle3" cx="80" cy="80" r="70" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-space">
+                        <div class="container">
+                            <h3>PHOTOSHOP</h3>
+                            <div class="bar">
+                                <div class="outer">
+                                        <div class="inner">
+                                            <div id="number4"></div>
+                                        </div>
+                                </div>
+                                <svg width="160px" height="160px">
+                                    <defs>
+                                        <linearGradient id="GradientColor">
+                                            <stop offset="0%" stop-color="#e91e63" />
+                                            <stop offset="100%" stop-color="#673ab7" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle4" cx="80" cy="80" r="70" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3>GRAPHIC DESIGNING</h3>
+                            <div class="bar">
+                                <div class="outer">
+                                        <div class="inner">
+                                            <div id="number5"></div>
+                                        </div>
+                                </div>
+                                <svg width="160px" height="160px">
+                                    <defs>
+                                        <linearGradient id="GradientColor">
+                                            <stop offset="0%" stop-color="#e91e63" />
+                                            <stop offset="100%" stop-color="#673ab7" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle5" cx="80" cy="80" r="70" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3>DATA SCIENCE</h3>
+                            <div class="bar">
+                                <div class="outer">
+                                        <div class="inner">
+                                            <div id="number6"></div>
+                                        </div>
+                                </div>
+                                <svg width="160px" height="160px">
+                                    <defs>
+                                        <linearGradient id="GradientColor">
+                                            <stop offset="0%" stop-color="#e91e63" />
+                                            <stop offset="100%" stop-color="#673ab7" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle6" cx="80" cy="80" r="70" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="certificate">
+                    <h1>What I am certified in?</h1>
+                    <h3>My Certifications</h3>
+                    <div class="container">
+                        <h3>Course-Certificates</h3>
+                        <div class="row">
+                            <div class="img-col">
+                                <img src="python.png" alt="img1">
+                                <div class="layer">
+                                    <h3>PYTHON</h3>
+                                </div>
+                            </div>
+                            <div class="img-col">
+                                <img src="python.png" alt="img1">
+                                <div class="layer">
+                                    <h3>WEB DEVELOPMENT</h3>
+                                </div>
+                            </div>
+                            <div class="img-col">
+                                <img src="python.png" alt="img1">
+                                <div class="layer">
+                                    <h3>GRAPHIC DESIGNING</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h3>Webinar-Certificates</h3>
+                            <div class="row">
+                                <div class="img-col">
+                                    <img src="digital-marketing.jpg" alt="img1">
+                                    <div class="layer">
+                                        <h3>DIGITAL MARKETING</h3>
+                                    </div>
+                                </div>
+                                <div class="img-col">
+                                    <img src="digital-marketing.jpg" alt="img1">
+                                    <div class="layer">
+                                        <h3>JAVA PROGRAMMING</h3>
+                                    </div>
+                                </div>
+                                <div class="img-col">
+                                    <img src="digital-marketing.jpg" alt="img1">
+                                    <div class="layer">
+                                        <h3>CYBER SECURITY</h3>
+                                    </div>
+                                </div>
+                            </div>    
+                    </div>
+                </div>
+                <hr>
+                <div id="contact">
+                    <h1>How to Reach Me?</h1>
+                    <h3>Here are my contact details</h3>
+                    <div class="container">
+                        <div class="row1">
+                            <h2>Reach Me @</h2>
+                            <table>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>piyushv340@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone</td>
+                                    <td>+91 917 006 4306</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>1/544, Awadhpuri-2, Khargapur, Gomti Nagar,
+                                        <br>Lucknow, Uttar Pradesh 226010</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="row2">
+                            <h2>Send Me Request</h2>
+                            <form action="process.php" method="post">
+                            <div class="col">
+                                <div class="f-half">
+                                    
+                                        <label for="name">Full Name</label>
+                                        <input type="text" id="name" name="name" placeholder="John Admoe" required>
+                                    
+                                </div>
+                                <div class="s-half">
+                                    
+                                        <label for="phone">Phone</label>
+                                        <input type="text" id="phone" name="phone" placeholder="+1 012 345 6789" required>
+                                    
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="f-half">
+                                    
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="johnadmoedog@gmail.com" required>
+                                    
+                                </div>
+                                <div class="s-half">
+                                    
+                                        <label for="subject">Subject</label>
+                                        <input type="text" id="subject" name="subject" placeholder="Product Demo" required>
+                                    
+                                </div>
+                            </div>
+                            <div class="message">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+                            </div>
+                            <button type="submit" onclick="showAlert()">Send Message</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                <hr class="last-line">
+            </section>  
+        </div> 
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
