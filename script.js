@@ -98,25 +98,3 @@ setInterval(() => {
 function showAlert(){
     alert("Thank you for submitting the form.");
 }
-
-// Functioning for side navigation bar
-var open = document.getElementById('open-button');
-    open.addEventListener('click',function(){
-    document.querySelector('.column1').style.width = '70%';
-    document.querySelector('.column2').style.width = '30%';
-    open.style.display = 'none';
-    
-})
-
-var close = document.getElementById('close-button');
-    close.addEventListener('click',function(){
-    document.querySelector('.column1').style.width = '0';
-    document.querySelector('.column2').style.width = '100%';
-    open.style.display = 'block';
-})
-
-function hideMenu(){
-    document.querySelector('.column1').style.width = '0';
-    document.querySelector('.column2').style.width = '100%';
-    open.style.display = 'block';
-}
